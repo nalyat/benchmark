@@ -2,6 +2,7 @@ AUTHORS
 LICENSE
 MANIFEST.in
 README.txt
+setup.cfg
 setup.py
 benchmark/Benchmark.py
 benchmark/__init__.py

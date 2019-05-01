@@ -1,0 +1,6 @@
+benchmark/Benchmark.pyc
+benchmark/__init__.pyc
+benchmark/__pycache__/
+benchmark/main.pyc
+build/
+dist/
