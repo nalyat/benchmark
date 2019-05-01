@@ -1,16 +1,16 @@
 from setuptools import setup
 
-from benchmark import __VERSION__
+from benchmark import __VERSION__, __URL__, __maintainer__, __email__
 
 setup(
     name='benchmark',
     version=__VERSION__,
-    url='http://jspi.es/benchmark',
+    url=__URL__,
     license='LICENSE.txt',
-    author='Jeffrey R. Spies',
-    author_email='jspies@gmail.com',
+    author=__maintainer__,
+    author_email=__email__,
     description='Python benchmarker / benchmarking framework',
-    long_description=open('README.txt').read(),
+    long_description=open('README.md').read(),
     packages=['benchmark'],
     include_package_data=True,
     zip_safe=False,

@@ -2,7 +2,7 @@
 # License: Apache License, Version 2.0
 # Website: http://jspi.es/benchmark
 
-from . import __VERSION__
+from . import __VERSION__, __URL__
 from .Benchmark import Benchmark
 
 import time
@@ -29,7 +29,7 @@ class BenchmarkProgram(object):
         title = 'Benchmark Report'
         info = 'Each of the above %s runs were run in random, non-consecutive order by' % str(totalRuns)
         info += os.linesep
-        info += '`benchmark` v' + __VERSION__ + ' (http://jspi.es/benchmark) with Python ' + platform.python_version()
+        info += '`benchmark` v' + __VERSION__ + ' (' + __URL__ + ') with Python ' + platform.python_version()
         info += os.linesep
         info += '%s-%s-%s on %s' % (platform.system(), platform.release(), platform.machine(), time.strftime("%Y-%m-%d %H:%M:%S", time.gmtime())) + '.'
         
